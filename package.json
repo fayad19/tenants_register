@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fayad19/tenants_register/issues"
   },
-  "homepage": "https://github.com/fayad19/tenants_register#readme"
+  "homepage": "https://github.com/fayad19/tenants_register#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
