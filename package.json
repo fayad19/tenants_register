@@ -1,0 +1,20 @@
+{
+  "name": "tenants_register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fayad19/tenants_register.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fayad19/tenants_register/issues"
+  },
+  "homepage": "https://github.com/fayad19/tenants_register#readme"
+}
