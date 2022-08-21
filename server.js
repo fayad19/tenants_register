@@ -22,3 +22,8 @@ app.get('/dashboard', (req, res) => {
 app.get('/input', (req, res) => {
     res.render("input");
 })
+
+app.listen(PORT, (err) => {
+    if (err) console.log("Error in server setup")
+    console.log("Server listening on Port", PORT);
+})
