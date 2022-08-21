@@ -292,3 +292,4 @@ node_modules/undefsafe/package.json
 node_modules/undefsafe/README.md
 node_modules/undefsafe/.github/workflows/release.yml
 node_modules/undefsafe/lib/undefsafe.js
+.env
