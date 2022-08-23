@@ -22,7 +22,7 @@ app.get('/input', (req, res) => {
     res.render("input");
 })
 
-
-app.listen(PORT, () => {
-    console.log(`Server is running on ${PORT}`);
+app.listen(PORT, (err) => {
+    if (err) console.log("Error in server setup")
+    console.log("Server listening on Port", PORT);
 })
