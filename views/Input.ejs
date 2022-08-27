@@ -9,15 +9,32 @@
 <body>
     <div>
         <form>
-            <label for="company">company</label>
-            <input type="text" id="company" name="company"><br>
-            <label for="datefrom">Start&nbsp;&nbsp;&nbsp;</label> 
+            <div>
+            <label for="tenant_name">Company</label>
+            <input type="text" id="tenant_name" name="tenant_name"><br>
+            <label for="legal_name">Company Legal Name</label>
+            <input type="text" id="legal_name" name="legal_name"><br>
+            <label for="invoice_name">Company Name for Invoice</label>
+            <input type="text" id="invoice_name" name="invoice_name"><br>
+            <label for="tin">TAX ID</label>
+            <input type="text" id="tin" name="tin"><br>
+            <label for="phone_num">Phone Number</label>
+            <input type="tel" id="phone_num" name="phone_num"><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="contact_person">Contact Person</label>
+            <input type="text" id="contact_person" name="contact_person"><br>
+        </div>
+        <div>
+            <label for="datefrom">Start</label> 
             <input type="date" id="datefrom" name="datefrom"><br>
             <label for="dateto">Expire</label>
             <input type="date" id="dateto" name="dateto"><br>
             <label for="area">Area m<sup>2</sup></label>
             <input type="number" id="area" name="area"><br>
-          </form>
+            <input type="submit" value="Add"> 
+        </div>  
+        </form>
     </div>
 </body>
 </html>
