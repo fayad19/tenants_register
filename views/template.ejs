@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="/public/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class='header'>
+        <h1>Forms - Fully responsive, CSS3</h1>
+      </div>
+      <div class='maincontent'>
+        <div class='navigation'>
+          <h2>Some navigation</h2>
+        </div>
+        <form class='form'>
+          <div class='control_group'>
+            <div class='label help'>
+              <i>?</i>
+              <label for='input'>Text input</label>
+              <span>Here will be placed explanatory information about concrete label term. In this case it would be for "Text input". What is Text input?</span>
+            </div>
+            <div class='input'>
+              <input id='input' placeholder='Focus me' type='text'>
+              <span class='hint'>Fill in your given name. Maximum allowed length is up to 30 characters. (Hint length is max 2 lines)</span>
+              <span class='note'>This is note, which is visible all the time. Can be longer than one line. Don't use if not necessary.</span>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='input_password'>Password input</label>
+            </div>
+            <div class='input'>
+              <input id='input_password' type='password'>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='input_email'>E-mail input</label>
+            </div>
+            <div class='input'>
+              <input id='input_email' type='email'>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='input_url'>URL input</label>
+            </div>
+            <div class='input'>
+              <input id='input_url' type='url'>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='input_search'>Search input</label>
+            </div>
+            <div class='input'>
+              <input id='input_search' type='text'>
+              <span class='note'>Use classic "text" type since "search" type has lot of browser restrictions in css styling.</span>
+            </div>
+          </div>
+          <div class='control_group required'>
+            <div class='label'>
+              <label for='input_required'>Required input</label>
+            </div>
+            <div class='input'>
+              <input id='input_required' required='required' type='text'>
+            </div>
+          </div>
+          <div class='control_group informative'>
+            <div class='label'>
+              <label>Informative item</label>
+            </div>
+            <div class='input'>
+              <span class='value'>This is informative text</span>
+            </div>
+          </div>
+          <div class='control_group readonly'>
+            <div class='label'>
+              <label for='input_readonly'>Read-only input</label>
+            </div>
+            <div class='input'>
+              <input id='input_readonly' readonly='readonly' type='text' value='Readonly text'>
+            </div>
+          </div>
+          <div class='control_group disabled'>
+            <div class='label'>
+              <label for='input_disabled'>Disabled input</label>
+            </div>
+            <div class='input'>
+              <input disabled='disabled' id='input_disabled' type='text'>
+            </div>
+          </div>
+          <div class='control_group success'>
+            <div class='label'>
+              <label for='input_success'>Input with success</label>
+            </div>
+            <div class='input'>
+              <input id='input_success' type='text'>
+              <span class='message'>This looks great! :)</span>
+              <span class='hint'>Fill in password in length of 6-20 characters.</span>
+              <span class='note'>This class will be used for some required confirmations on fly.</span>
+            </div>
+          </div>
+          <div class='control_group warning required'>
+            <div class='label help'>
+              <i>?</i>
+              <label for='input_warning'>Input with warning</label>
+              <span>Here will be placed explanatory information about concrete control. In this case it would be for "Input with warning". What is Input with warning?</span>
+            </div>
+            <div class='input'>
+              <input id='input_warning' required='required' type='text'>
+              <span class='message'>Password is volnurable. Use at least one letter, number and special character.</span>
+              <span class='hint'>Fill in password in length of 6-20 characters.</span>
+            </div>
+          </div>
+          <div class='control_group error'>
+            <div class='label help'>
+              <i>?</i>
+              <label for='input_error'>Input with error</label>
+              <span>Here will be placed explanatory information about concrete control. In this case it would be for "Input with error". What is Input with error?</span>
+            </div>
+            <div class='input'>
+              <input id='input_error' type='text'>
+              <span class='message'>Argh! Password is too short. Length should be 6-20 characters.</span>
+              <span class='hint'>Fill in password in length of 6-20 characters.</span>
+              <span class='note'>Here you can see combination of Note below input and Hint on the right. Not very common combination.</span>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label>Single-select</label>
+            </div>
+            <div class='input'>
+              <select>
+                <option>
+                  Option 1
+                </option>
+                <option>
+                  Option 2
+                </option>
+                <option>
+                  Option 3
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label>Multiple-select</label>
+            </div>
+            <div class='input'>
+              <select multiple='multiple'>
+                <option>
+                  Option 1
+                </option>
+                <option>
+                  Option 2
+                </option>
+                <option>
+                  Option 3
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class='control_group checkbox'>
+            <div class='label'>
+              <label>Checkbox</label>
+            </div>
+            <div class='input'>
+              <div class='control'>
+                <input id='checkbox_01' type='checkbox'>
+                <label class='control_label' for='checkbox_01'>Check me</label>
+              </div>
+            </div>
+          </div>
+          <div class='control_group checkbox'>
+            <div class='label'>
+              <label>Checkboxes - vertical</label>
+            </div>
+            <div class='input'>
+              <div class='control'>
+                <input id='checkbox_02' type='checkbox'>
+                <label for='checkbox_02'>Option A</label>
+              </div>
+              <div class='control'>
+                <input id='checkbox_03' type='checkbox'>
+                <label for='checkbox_03'>Option B</label>
+              </div>
+              <div class='control'>
+                <input id='checkbox_04' type='checkbox'>
+                <label for='checkbox_04'>Option C</label>
+              </div>
+            </div>
+          </div>
+          <div class='control_group checkbox horizontal'>
+            <div class='label'>
+              <label>Checkboxes - horizontal</label>
+            </div>
+            <div class='input'>
+              <div class='control'>
+                <input id='checkbox_05' type='checkbox'>
+                <label for='checkbox_05'>Option A</label>
+              </div>
+              <div class='control'>
+                <input id='checkbox_06' type='checkbox'>
+                <label for='checkbox_06'>Option B</label>
+              </div>
+              <div class='control'>
+                <input id='checkbox_07' type='checkbox'>
+                <label for='checkbox_07'>Option C</label>
+              </div>
+            </div>
+          </div>
+          <div class='control_group radio'>
+            <div class='label'>
+              <label>Radio buttons - vertical</label>
+            </div>
+            <div class='input'>
+              <div class='control'>
+                <input id='radio_01' name='radio_vertical' type='radio'>
+                <label for='radio_01'>Option A</label>
+              </div>
+              <div class='control'>
+                <input id='radio_02' name='radio_vertical' type='radio'>
+                <label for='radio_02'>Option B</label>
+              </div>
+              <div class='control'>
+                <input id='radio_03' name='radio_vertical' type='radio'>
+                <label for='radio_03'>Option C</label>
+              </div>
+            </div>
+          </div>
+          <div class='control_group radio horizontal'>
+            <div class='label'>
+              <label>Radio buttons - horizontal</label>
+            </div>
+            <div class='input'>
+              <div class='control'>
+                <input id='radio_04' name='radio_horizontal' type='radio'>
+                <label for='radio_04'>Option A</label>
+              </div>
+              <div class='control'>
+                <input id='radio_05' name='radio_horizontal' type='radio'>
+                <label for='radio_05'>Option B</label>
+              </div>
+              <div class='control'>
+                <input id='radio_06' name='radio_horizontal' type='radio'>
+                <label for='radio_06'>Option C</label>
+              </div>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='input_file'>File input</label>
+            </div>
+            <div class='input'>
+              <input id='input_file' type='file'>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='textarea_01'>Textarea</label>
+            </div>
+            <div class='input'>
+              <textarea id='textarea_01'></textarea>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='date_01'>Date</label>
+            </div>
+            <div class='input'>
+              <input id='date_01' type='date'>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='number_01'>Number input</label>
+            </div>
+            <div class='input'>
+              <input id='number_01' max='20' min='0' type='number' value='0'>
+            </div>
+          </div>
+          <div class='control_group'>
+            <div class='label'>
+              <label for='range_01'>Range input</label>
+            </div>
+            <div class='input'>
+              <input id='range_01' max='20' min='0' type='range' value='0'>
+            </div>
+          </div>
+          <div class='control_group buttons'>
+            <div class='label'></div>
+            <div class='input'>
+              <input class='btn primary' type='submit' value='Save'>
+              <input class='btn' type='submit' value='Cancel'>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+</body>
+</html>

@@ -10,12 +10,15 @@ const PORT = process.env.PORT || 4000;
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));
 
+//Middleware for static files
+app.use('/public', express.static('public'));
+
 app.get('/', (req, res) => {
     res.render("index");
 })
 
-app.get('/dashboard', (req, res) => {
-    res.render("dashboard");
+app.get('/template', (req, res) => {
+    res.render("template");
 })
 
 app.get('/input', (req, res) => {
