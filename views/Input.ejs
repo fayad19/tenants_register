@@ -66,6 +66,70 @@
             </div>
             <div class='control_group'>
                 <div class="label">
+                    <label for="concract_number">Concract number</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="concract_number" name="concract_number">
+                </div>
+                <div class="label">
+                    <label for="datefrom">Start</label>
+                </div>
+                <div class='input'>
+                    <input type="date" id="datefrom" name="datefrom">
+                </div>
+                <div class="label">
+                    <label for="dateto">Expire</label>
+                </div>
+                <div class='input'>
+                    <input type="date" id="dateto" name="dateto">
+                </div>
+                <div class="label">
+                    <label for="vat_payer">VAT Payer</label>
+                </div>
+                <div class='control_group radio horizontal'>
+                    <div class='input'>
+                        <div class='control'>
+                            <input id='vat_payer_yes' name='vat_payer_yes' type='radio'>
+                            <label for='vat_payer_yes'>Yes</label>
+                        </div>
+                        <div class='control'>
+                            <input id='vat_payer_no' name='vat_payer_no' type='radio'>
+                            <label for='vat_payer_no'>No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="label">
+                    <label for="payment_term">Payment Term</label>
+                </div>
+                <div class='input'>
+                    <input type="text" id='payment_term' name='payment_term'>
+                </div>
+                <div class="label">
+                    <label for="currency">Currency</label>
+                </div>
+                <div class='control_group radio horizontal'>
+                    <div class='input'>
+                        <div class='control'>
+                            <input id='currency_azn' name='currency_azn' type='radio'>
+                            <label for='currency_azn'>AZN</label>
+                        </div>
+                        <div class='control'>
+                            <input id='currency_usd' name='currency_usd' type='radio'>
+                            <label for='currency_usd'>USD</label>
+                        </div>
+                        <div class='control'>
+                            <input id='currency_eur' name='currency_eur' type='radio'>
+                            <label for='currency_eur'>EUR</label>
+                        </div>
+                        <div class='control'>
+                            <input id='currency_chf' name='currency_chf' type='radio'>
+                            <label for='currency_chf'>CHF</label>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+            <div class='control_group'>
+                <div class="label">
                     <label for="building">Building</label>
                 </div>
                 <div class='input'>
@@ -202,82 +266,7 @@
                     <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Comments..."></textarea><br>
                 </div>
             </div>
-            <div class='control_group'>
-                <div class="label">
-                    <label for="concract_number">Concract number</label>
-                </div>
-                <div class="input">
-                    <input type="text" id="concract_number" name="concract_number">
-                </div>
-                <div class="label">
-                    <label for="datefrom">Start</label>
-                </div>
-                <div class='input'>
-                    <input type="date" id="datefrom" name="datefrom">
-                </div>
-                <div class="label">
-                    <label for="dateto">Expire</label>
-                </div>
-                <div class='input'>
-                    <input type="date" id="dateto" name="dateto">
-                </div>
-                <div class="label">
-                    <label for="vat_payer">VAT Payer</label>
-                </div>
-                <div class='control_group radio horizontal'>
-                    <div class='input'>
-                        <div class='control'>
-                            <input id='vat_payer_yes' name='vat_payer_yes' type='radio'>
-                            <label for='vat_payer_yes'>Yes</label>
-                        </div>
-                        <div class='control'>
-                            <input id='vat_payer_no' name='vat_payer_no' type='radio'>
-                            <label for='vat_payer_no'>No</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="label">
-                    <label for="payment_term">Payment Term</label>
-                </div>
-                <div class='input'>
-                    <input type="text" id='payment_term' name='payment_term'>
-                </div>
-                <div class="label">
-                    <label for="currency">Currency</label>
-                </div>
-                <div class='control_group radio horizontal'>
-                    <div class='input'>
-                        <div class='control'>
-                            <input id='currency_azn' name='currency_azn' type='radio'>
-                            <label for='currency_azn'>AZN</label>
-                        </div>
-                        <div class='control'>
-                            <input id='currency_usd' name='currency_usd' type='radio'>
-                            <label for='currency_usd'>USD</label>
-                        </div>
-                        <div class='control'>
-                            <input id='currency_eur' name='currency_eur' type='radio'>
-                            <label for='currency_eur'>EUR</label>
-                        </div>
-                        <div class='control'>
-                            <input id='currency_chf' name='currency_chf' type='radio'>
-                            <label for='currency_chf'>CHF</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="label">
-                    <label for="comment">Comment</label>
-                </div>
-                <div class='input'>
-                    <input type="text" id='comment'>
-                </div>
-                <div class="label">
-
-                </div>
-                <div class='input'>
-
-                </div>
-            </div>
+            
             <div class="control_group">
                 <div class="input">
                     <input class="btn primary" type="submit" value="Add">
