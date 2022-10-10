@@ -201,7 +201,7 @@ body {
     padding-top: 4px;
   }
   .form input[type="number"] {
-    width: 50px;
+    width: 280px;
     text-align: left;
   }
   .form select {
